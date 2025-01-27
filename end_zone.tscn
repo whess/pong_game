@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dghn1aw3kxbuu"]
+
+[node name="EndZone" type="Area2D"]
+scale = Vector2(50, 648)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(2.08165e-12, 2.08165e-12, 2.08165e-12, 1, 1, 1, 1, 2.08165e-12)

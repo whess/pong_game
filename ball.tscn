@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dx31c1niknueu"]
+
+[ext_resource type="Script" path="res://ball.gd" id="1_ovjd7"]
+
+[node name="Ball" type="RigidBody2D"]
+gravity_scale = 1.66533e-16
+script = ExtResource("1_ovjd7")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+scale = Vector2(15, 15)
+polygon = PackedVector2Array(2.08165e-12, 2.08165e-12, 2.08165e-12, 1, 1, 1, 1, 2.08165e-12)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+scale = Vector2(15, 15)
+polygon = PackedVector2Array(2.08165e-12, 2.08165e-12, 2.08165e-12, 1, 1, 1, 1, 2.08165e-12)
